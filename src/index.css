@@ -5,9 +5,47 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: darkseagreen;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container{
+  display: flex;
+}
+
+.card{
+  background-color:cadetblue;
+  display: flex;
+  max-width: 20%;
+  flex-direction: column;
+  margin: 5px auto;
+  padding: 15px;
+}
+
+.card-image{
+  width: 100%;
+}
+
+.card-image:hover{
+  opacity: 0.7;
+}
+
+.card-title{
+  text-align: center;
+  margin: 10px;
+  color: lemonchiffon;
+}
+
+.card-content{
+  text-align: justify;
+}
+
+.App>h2{
+  text-align: center;
+  margin: 40px;
+  color: maroon;
 }
