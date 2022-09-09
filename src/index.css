@@ -59,3 +59,9 @@ code {
   color: rgb(187, 4, 144);
 
 }
+
+.featured{
+  font-style: italic;
+  font-family: Helvetica, sans-serif;
+  color: honeydew;
+}
