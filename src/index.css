@@ -44,8 +44,18 @@ code {
   text-align: justify;
 }
 
+.joke-container{
+  padding: 20px;
+}
+
 .App>h2{
   text-align: center;
   margin: 40px;
   color: maroon;
+}
+
+
+.card-title:hover{
+  color: rgb(187, 4, 144);
+
 }
